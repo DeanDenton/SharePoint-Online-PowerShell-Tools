@@ -12,7 +12,8 @@ $sBCC = ""
 $ReuseCredentials = $true 
 $sTimeStamp = Get-Date
 ######################################
-$CSOM_Path = "C:\SYNC\SharePoint\MSH Development - Code\dllCSOM\"
+$CSOM_Path   = "C:\DEV\Microsoft.SharePointOnline.CSOM.16.1.6906.1200\lib\net45\"
+$ModulesPath = "C:\DEV\GitHub\SharePoint-Online-PowerShell-Tools\Modules\"
 Add-Type -Path ($CSOM_Path + "Microsoft.SharePoint.Client.dll" )
 Add-Type -Path ($CSOM_Path + "Microsoft.SharePoint.Client.Runtime.dll")
 ######################################

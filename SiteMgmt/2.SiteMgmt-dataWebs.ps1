@@ -20,8 +20,8 @@ $ScanDateTime = Get-Date
 # ADD: Navigation Info
 
 ######################################
-$CSOM_Path   = "C:\SYNC\SharePoint\MSH Development - Code\dllCSOM\Microsoft.SharePointOnline.CSOM.16.1.6518.1200\lib\net45"
-$ModulesPath = "C:\SYNC\SharePoint\MSH Development - Code\Modules\"
+$CSOM_Path   = "C:\DEV\Microsoft.SharePointOnline.CSOM.16.1.6906.1200\lib\net45\"
+$ModulesPath = "C:\DEV\GitHub\SharePoint-Online-PowerShell-Tools\Modules\"
 ######################################
  # IMPORT #
 Add-Type -Path "$CSOM_Path\Microsoft.SharePoint.Client.dll" 
